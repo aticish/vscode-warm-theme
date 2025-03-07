@@ -1,0 +1,55 @@
+{
+    "name": "kozdan-warm-theme",
+    "version": "1.0.0",
+    "description": "A warm theme for VS Code",
+    "displayName": "Kozdan Warm Theme",
+    "icon": "./icons/package.png",
+    "publisher": "aticish",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/aticish/vscode-warm-theme"
+    },
+    "engines": {
+        "vscode": "^1.79.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "galleryBanner": {
+        "color": "#bd6c27",
+        "theme": "dark"
+    },
+    "keywords": [
+        "Warm Theme",
+        "Solarized",
+        "Soft Colors",
+        "Orange",
+        "Kozdan"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dark - Kozdan Warm",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark-warm.json"
+            },
+            {
+                "label": "Dark - Kozdan Warm (Bold)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark-warm-bold.json"
+            },
+            {
+                "label": "Light - Kozdan Warm",
+                "uiTheme": "vs",
+                "path": "./themes/light-warm.json"
+            },
+            {
+                "label": "Light - Kozdan Warm (Bold)",
+                "uiTheme": "vs",
+                "path": "./themes/light-warm-bold.json"
+            }
+        ]
+    }
+
+}
